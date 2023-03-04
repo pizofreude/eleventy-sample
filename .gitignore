@@ -1,4 +1,33 @@
+# Ignore Virtual Environment
+venv/
+
+# Generated files
+package/generated*
+
+# Ignore installed npm modules
+node_modules/
+
+# Ignore build tool output, e.g. code coverage
+.nyc_output/
+coverage/
+
+# Ignore API documentation
+api-docs/
+
+# Ignore folders from source code editors
+.vscode
+.idea
+
+# Ignore eleventy output when doing manual tests
 _site/
+
+package-lock.json
+
+# Ignore test files
+.cache
+test/stubs-layout-cache/_includes/*.js
+
+# Ignore Jekyll cache & metadata
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
